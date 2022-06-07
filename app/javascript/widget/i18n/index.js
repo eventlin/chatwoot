@@ -29,6 +29,7 @@ import { default as ta } from './locale/ta.json';
 import { default as tr } from './locale/tr.json';
 import { default as uk } from './locale/uk.json';
 import { default as vi } from './locale/vi.json';
+import { default as sr } from './locale/sr.json';
 import { default as zh_CN } from './locale/zh_CN.json';
 import { default as zh_TW } from './locale/zh_TW.json';
 
@@ -64,6 +65,7 @@ export default {
   tr,
   uk,
   vi,
+  sr,
   zh_CN,
   zh_TW,
 };
