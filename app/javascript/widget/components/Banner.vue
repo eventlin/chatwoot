@@ -1,9 +1,5 @@
 <template>
-  <div v-if="showBannerMessage" :class="`banner ${bannerType}`">
-    <span>
-      {{ bannerMessage }}
-    </span>
-  </div>
+
 </template>
 
 <script>
