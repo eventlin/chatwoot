@@ -73,7 +73,8 @@ export default {
       if (workingHoursEnabled) {
         return this.isInBetweenTheWorkingHours;
       }
-      return anyAgentOnline;
+      //return anyAgentOnline;
+      return true; // HADCODE - always online
     },
     replyWaitMeessage() {
       const { workingHoursEnabled } = this.channelConfig;
