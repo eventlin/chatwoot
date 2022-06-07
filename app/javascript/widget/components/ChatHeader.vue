@@ -85,12 +85,12 @@ export default {
       widgetColor: 'appConfig/getWidgetColor',
     }),
     isOnline() {
-      // const { workingHoursEnabled } = this.channelConfig;
-      // const anyAgentOnline = this.availableAgents.length > 0;
+      const { workingHoursEnabled } = this.channelConfig;
+      const anyAgentOnline = this.availableAgents.length > 0;
 
-      // if (workingHoursEnabled) {
-      //   return this.isInBetweenTheWorkingHours;
-      // }
+      if (workingHoursEnabled) {
+         return this.isInBetweenTheWorkingHours;
+      }
       // return anyAgentOnline;
       return true;
     },
