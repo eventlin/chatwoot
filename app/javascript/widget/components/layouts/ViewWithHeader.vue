@@ -35,7 +35,6 @@
         />
       </transition>
     </div>
-    <banner />
     <transition
       enter-active-class="transition-all delay-300 duration-300 ease-in"
       leave-active-class="transition-all duration-200 ease-out"
