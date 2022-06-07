@@ -45,7 +45,6 @@
     >
       <router-view />
     </transition>
-    <branding />
   </div>
 </template>
 <script>
