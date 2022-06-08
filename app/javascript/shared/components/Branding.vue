@@ -1,7 +1,7 @@
 <template>
   <div v-if="globalConfig.brandName" class="px-0 py-3 flex justify-center">
     <a
-      :href="http://www.eventlin.com"
+      :href="www.eventlin.com"
       rel="noreferrer noopener nofollow"
       target="_blank"
       class="branding--link justify-center"
